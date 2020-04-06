@@ -3,7 +3,8 @@
 Pentru a deschide și edita proiectul, downloadează Twine https://twinery.org/
 
 Pentru a avea acces la imagini în interiorul proiectului trebuie să editezi variabila <b>basePath</b> cu adresa catre folderul <b>img</b>. Pentru a edita variabila, du-te la <i>Edit Story JavaScript</i> din Twine(click nume proiect stînga jos).
-Exemplu: const basePath = '/Users/marianastase/Documents/Twine/Stories/';
+<br/>
+Exemplu: `const basePath = '/Users/marianastase/Documents/Twine/Stories/';`
   
 Următoarele funcții pot fi folosite pentru a edita imaginile și culoarea fundalului:
 <ul><li>changeWholeBg($imagePath);</li><li>colorWholeBg($colorHexcode);</li><li>addImage($imagePath, $offsetLeft, $offsetRight, $offsetTop, $offsetBottom)</li></ul>
